@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Objeto Virtual de información web | Bienvenidos</title>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width">
+    <meta name="description"content="Introducción al desarrollo de software">
+    <meta name="keywords"content="diseño web, desarrollo web, seo, posicionmiento web">
+    <meta name="author"content="Trinyweb">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" type="text/css"href="css/style.css">
+    </head>
+  <body>
+    <header>
+        <div class="contenedor">
+        <div id="marca">
+          </div>
+          <nav>
+            <ul>
+              <li class="actual"><a href= "index.html">Inicio</a></li>
+              <li ><a href= "fases de desarrollo.html">Fases de desarrollo</a></li>
+              <li ><a href= "modelos de proceso.html">Modelo de proceso</a></li>
+              <li ><a href= "ers.html">Especificacione de requisitos de software</a></li>
+              <li ><a href= "autora.html">autor</a></li>
+
+            </ul>
+          </nav>
+    </header>
+    <div class="slide-wrap">
+    <ul class="slider1">
+     <li><img src="img/slider/imagen_1.png" alt=""></li>
+     <li><img src="img/slider/imagen_2.png" alt=""></li>
+     <li><img src="img/slider/imagen_3.png" alt=""></li>
+    </ul>
+   </div>
+   <!-- scrips -->
+<script>
+ $(document).ready(function(){
+     $('.slider1').bxSlider({
+       mode: 'fade',
+     });
+     $('.slider2').bxSlider({
+       mode: 'fade',
+     });
+     $('.slider3').bxSlider({
+       mode: 'fade',
+     });
+   });
+ </script>
+
+ <h1>MODELOS DE DESARROLLO DE SOFTWARE</h1>
+ <p>Para el desarrollo de software existe una representación que nos permite seleccionar el proceso a utilizar siendo este el más apropiado según las necesidades para esto existe los siguientes modelos.
+ </p>
+ <h2>1.	Modelo Cascada</h2>
+ <p>En este modelo se debe seguir una secuencia de forma estricta que indique que solo cuando culmine un paso pueda continuar al siguiente</p>
+ <img src="img/cascada.jpg" alt="imagen cascada">
+ <h2>2.	Modelo Repetitivo</h2>
+ <p>En este modelo se orienta el proceso de desarrollo de software en repeticiones cada vez que un ciclo culmina.</p>
+ <img src="img/repetitivo.jpg" alt="imagen repetitivo">
+ <h2>3.	Modelo V</h2>
+ <p>En el modelo V nos permite tener más opciones a diferencia del modelo cascado al momento de encontrar un error permitiendo volver hacia atrás así estemos en una etapa más adelante.</p>
+ <img src="img/v.jpg" alt="imagen v">
+ <h2>4.	Modelo Big Bang</h2>
+ <p>En este modelo se necesita poca planificación ya que se asocian todos los módulos para probar finalmente si funciona esperando varios errores.</p>
+ <img src="img/binbang.jpg" alt="imagen binbang">
+ <h2>5.	Modelo Espiral</h2>
+ <p>En este modelo se disminuye los peligros al desarrollar un software como lo son los costos y tiempo ya que se evalúa constantemente con los usuarios pudiendo corregirlos a tiempo real. </p>
+ <img src="img/espiral.jpg" alt="imagen espiral">
+</body>
+</html>
